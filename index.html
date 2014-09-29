@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset=utf-8 />
-<title>basemap</title>
+<title>St. Vincent De Paul Conferences in Northeast Ohio</title>
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.js'></script>
 <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' />
@@ -23,7 +23,11 @@ var map = L.mapbox.map('map', 'skorasaurus.3iunyt15')
   $.getJSON("./locations.geojson", function(data) {
     var geojson = L.geoJson(data, {
       onEachFeature: function (feature, layer) {
-        layer.bindPopup(feature.properties.name);
+      layer.bindPopup(
+        feature.properties.Parish + '<br \/>' + 
+        feature.properties.Address + '<br \/>' + 
+        feature.properties.Phone + '<br \/>' + 
+        'Phone: ' + feature.properties.call );
         }
     });
     geojson.addTo(map);
