@@ -107,19 +107,20 @@ var mymap = L.mapbox.map('map', 'skorasaurus.3iunyt15')
 
   $.getJSON("./locations.geojson", function(data) {
     var geojson = L.geoJson(data, {
-      onEachFeature: function (feature, layer) {
+     onEachFeature: function (feature, layer) {
       layer.bindPopup(
         feature.properties.Parish + '<br \/>' + 
         feature.properties.Address + '<br \/>' + 
-        feature.properties.Phone + '<br \/>' + 
-        }
+        feature.properties.Phone + '<br \/>' 
+      );
+     }
     });
     geojson.addTo(mymap);
   });
 
 /** CONFIGURE smartystreets **/
 
-    var htmlKey = "3548360835619230092";      // Put your HTML key here
+    var htmlKey = "3548360835619230092";      // Put your HTML key here  
     var debug = false;          // Toggle debug mode
 
     var testRunnerVersion = "1.1.6";  // The version of this test runner page
