@@ -7,16 +7,101 @@
 <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.js'></script>
 <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' />
 <script src='http://code.jquery.com/jquery-2.1.1.js'></script>
+<script src="//d79i1fxsrar4t.cloudfront.net/jquery.liveaddress/2.4/jquery.liveaddress.min.js"></script> 
 <style>
   body { margin:0; padding:0; }
   #map { position:absolute; top:0; bottom:0; width:100%; }
+
+  form {
+    width: 300px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    float: left;
+    position: relative;
+  }
+
+  form header {
+    padding: 10px 50px 0;
+    background: #F0F0F0;
+  }
+
+
+  form header h3 {
+    font-weight: 300;
+    font-size: 27px;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+
+  form table {
+    margin: 15px 10px;
+    font-size: 14px;
+  }
+
+  form table td {
+    padding: 2px;
+  }
+
+  form input[type=text],
+  form textarea {
+    padding: 5px 5px 3px;
+    font: 12px/1em sans-serif;
+    width: 160px;
+    outline: none;
+  }
+
+  form select {
+    outline: none;
+  }
+
+  form textarea {
+    min-height: 40px;
+  }
+
+  form input[type=submit],
+  form [type=image],
+  form button {
+    font-size: 13px;
+  }
+
 </style>
 </head>
 <body>
 
+
+
 <div id='map'></div>
+
+ <form id="happyPath">
+    <header> 
+      <h3>Find a conference near you</h3> </header>
+    <table>
+      <tr>
+        <td>Street address:</td>
+        <td><input type="text" name="street"></td>
+      </tr>
+      <tr>
+        <td>City:</td>
+        <td><input type="text" name="city"></td>
+      </tr>
+      <tr>
+        <td>State:</td>
+        <td><input type="text" name="state"></td>
+      </tr>
+      <tr>
+        <td>ZIP Code:</td>
+        <td><input type="text" name="zip"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="submit" value="Find Address"></td>
+      </tr>
+    </table>
+  </form>
+ 
+</div>
 <script>
-var map = L.mapbox.map('map', 'skorasaurus.3iunyt15')
+var mymap = L.mapbox.map('map', 'skorasaurus.3iunyt15')
     .setView([41.449096,-81.648331], 11);
 
 
@@ -27,11 +112,70 @@ var map = L.mapbox.map('map', 'skorasaurus.3iunyt15')
         feature.properties.Parish + '<br \/>' + 
         feature.properties.Address + '<br \/>' + 
         feature.properties.Phone + '<br \/>' + 
-        'Phone: ' + feature.properties.call );
         }
     });
-    geojson.addTo(map);
+    geojson.addTo(mymap);
   });
+
+/** CONFIGURE smartystreets **/
+
+    var htmlKey = "3548360835619230092";      // Put your HTML key here
+    var debug = false;          // Toggle debug mode
+
+    var testRunnerVersion = "1.1.6";  // The version of this test runner page
+
+
+    /** PREPARE FORM(S) **/
+    
+    $(function()
+    {
+      $('form#submitEvent').submit(function() {
+        alert("Form submit. Verification should happen first (if necessary), then this should occur.");
+      });
+    });
+
+
+    /** INITIALIZE liveaddress **/
+
+    var liveaddress = $.LiveAddress({
+      key: htmlKey,   // An HTML key from your account
+      debug: debug,   // Show debug stuff
+      cityStatePreference: "Cleveland, OH", // prefer Cle cities
+      stateFilter: "OH" // only autcomplete ohio
+    });
+
+    // https://github.com/smartystreets/jquery.liveaddress/blob/master/customizations/get-coordinates.js
+    //grab coordinates and then pan to the coords,     
+    liveaddress.on("AddressAccepted", function(event, data, previousHandler)
+    {
+    if (data.response.chosen)
+    console.log(data.response.chosen.metadata.latitude, data.response.chosen.metadata.longitude);
+  // create marker based on the returned coords, add it to map
+    L.marker([data.response.chosen.metadata.latitude, data.response.chosen.metadata.longitude], {
+      icon: L.mapbox.marker.icon({
+          'marker-size': 'medium',
+          'marker-symbol': 'star',
+          'marker-color': '#fa0'
+      })
+    }).addTo(mymap);
+    // change map to zoom on the returned coords
+    mymap.setView([data.response.chosen.metadata.latitude, data.response.chosen.metadata.longitude], 14);
+    previousHandler(event, data);
+    });
+
+</script>
+
+<script>
+function suppress(event) {
+  if (!event) return false;
+  if (event.preventDefault) event.preventDefault();
+  if (event.stopPropagation) event.stopPropagation();
+  if (event.stopImmediatePropagation) event.stopImmediatePropagation();
+  if (event.cancelBubble) event.cancelBubble = true;
+  return false;
+}
+</script>
+
 </script>
 
 </body>
