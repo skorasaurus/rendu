@@ -1,0 +1,26 @@
+_prefs: 
+  baselayer: ''
+  saveCenter: true
+_properties: {}
+attribution: Map data © OpenStreetMap contributors
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - -75.1929
+  - 39.9499
+  - 15
+description: ''
+format: "png8:m=h"
+interactivity_layer: ''
+layers: null
+maxzoom: 22
+minzoom: 0
+name: svdp area conferences and ozanam centers
+source: "mapbox:///mapbox.mapbox-streets-v5"
+styles: 
+  - style.mss
+  - roadlabels.mss
+template: ''

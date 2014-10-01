@@ -1,0 +1,16 @@
+- place_name: Cleveland, 44114, Ohio, United States
+  zoom: 15
+  center: 
+    - 41.50267980949701
+    - -81.69390678405762
+  tags: 
+    - userbookmark
+  index: 0
+- place_name: Dakar, Dakar, Senegal
+  zoom: 14
+  center: 
+    - 14.706444246676122
+    - -17.458133697509766
+  tags: 
+    - userbookmark
+  index: 1
