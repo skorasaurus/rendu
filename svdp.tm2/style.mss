@@ -8,6 +8,7 @@
 // Common Colors //
 @water: #c3e6ff;
 @park: #cec;
+@roadcolor: darkblue; 
 
 Map {
   background-color:#fff;
