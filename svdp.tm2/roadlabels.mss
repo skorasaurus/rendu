@@ -13,7 +13,10 @@
     text-halo-radius: 2;
     text-min-distance: 200;
     text-size: 12;
-    [zoom>=15] { text-size: 14; }
+    [zoom>=15] { 
+      text-size: 14; 
+      [class='main'] { text-face-name: @medium;}
+    }
     [zoom>=16] { text-size: 16; }
     [zoom>=17] { text-size: 18; }
     [zoom>=18] { text-size: 20; }

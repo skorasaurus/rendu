@@ -1,5 +1,6 @@
 _prefs: 
   baselayer: ''
+  mapid: skorasaurus.918a6542
   saveCenter: true
 _properties: {}
 attribution: Map data © OpenStreetMap contributors
@@ -9,16 +10,16 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -81.7101
-  - 41.4449
-  - 12
+  - -81.6474
+  - 41.5045
+  - 14
 description: ''
 format: "png8:m=h"
 interactivity_layer: ''
 layers: null
 maxzoom: 22
 minzoom: 0
-name: svdp area conferences and ozanam centers
+name: 'Rendu '
 source: "mapbox:///mapbox.mapbox-streets-v5"
 styles: 
   - style.mss

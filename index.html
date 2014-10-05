@@ -104,6 +104,7 @@
 var mymap = L.mapbox.map('map', 'skorasaurus.3iunyt15')
     .setView([41.449096,-81.648331], 11);
 
+// old map id skorasaurus.3iunyt15 - made w/ tm2 in beta
 
   $.getJSON("./locations.geojson", function(data) {
     var geojson = L.geoJson(data, {

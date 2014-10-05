@@ -3,8 +3,8 @@
 
 // fonty python!
 // @thereg: 'Source Sans Pro Regular';
-@thereg: 'Mark SC Offc Pro Regular';
-@medium: 'Mark SC Offc Pro Medium';
+@thereg: 'Clan Offc Pro Book';
+@medium: 'Clan Offc Pro Medium';
 
 // Common Colors //
 @water: #84EBFF;
@@ -109,8 +109,8 @@ Map {
     text-size: 12;
     text-wrap-width: 100;
     text-wrap-before: true;
-    [zoom>=14] { text-size: 14; }
-    [zoom>=16] { text-size: 16; }
+    [zoom>=14] { text-size: 18; }
+    [zoom>=16] { text-size: 20; }
   }
 }
 
