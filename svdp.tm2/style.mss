@@ -2,8 +2,9 @@
 @name: '[name_en]';
 
 // fonty python!
-@thereg: 'Source Sans Pro Regular';
-
+// @thereg: 'Source Sans Pro Regular';
+@thereg: 'Mark SC Offc Pro Regular';
+@medium: 'Mark SC Offc Pro Medium';
 
 // Common Colors //
 @water: #84EBFF;
@@ -68,10 +69,11 @@ Map {
 }
 
 #place_label {
+ //  text-face-name: @medium; 
   [type='city'][zoom<=15] {
     text-name: @name;
-    text-face-name: 'Source Sans Pro Semibold';
-    text-fill: #444;
+    text-face-name: @medium;
+    text-fill: darken(@roadlabelcolor, 10%); 
     text-size: 16;
     text-wrap-width: 100;
     text-wrap-before: true;
@@ -80,8 +82,8 @@ Map {
   }
   [type='town'][zoom<=17] {
     text-name: @name;
-    text-face-name: 'Source Sans Pro Regular';
-    text-fill: #333;
+    text-face-name: @medium;
+    text-fill: darken(@roadlabelcolor, 10%); 
     text-size: 14;
     text-wrap-width: 100;
     text-wrap-before: true;
@@ -90,8 +92,8 @@ Map {
   }
   [type='village'] {
     text-name: @name;
-    text-face-name: 'Source Sans Pro Regular';
-    text-fill: #444;
+    text-face-name: @medium;
+    text-fill: darken(@roadlabelcolor, 10%); 
     text-size: 12;
     text-wrap-width: 100;
     text-wrap-before: true;
@@ -102,8 +104,8 @@ Map {
   [type='suburb'],
   [type='neighbourhood'] {
     text-name: @name;
-    text-face-name: 'Source Sans Pro Regular';
-    text-fill: #666;
+    text-face-name: @medium;
+    text-fill: darken(@roadlabelcolor, 10%); 
     text-size: 12;
     text-wrap-width: 100;
     text-wrap-before: true;
@@ -136,10 +138,11 @@ Map {
 }
 
 #waterway {
-   line-opacity: 0.5;
+   line-opacity: 0.1;
   [type='river'],
   [type='canal'] {
     line-color: @water;  
+    //line-opacity: 0.1;
     line-width: 0.5;
     [zoom>=12] { line-width: 1; }
     [zoom>=14] { line-width: 2; }
