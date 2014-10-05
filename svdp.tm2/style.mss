@@ -6,9 +6,9 @@
 
 
 // Common Colors //
-@water: #c3e6ff;
+@water: #84EBFF;
 @park: #cec;
-@roadcolor: darkblue; 
+@roadlabelcolor: hsl(207, 82%, 43%); 
 
 Map {
   background-color:#fff;
@@ -118,6 +118,7 @@ Map {
 #water {
   polygon-fill: @water;
   polygon-gamma: 0.6;
+  polygon-opacity: 0.2;
 }
 
 #water_label {
@@ -135,21 +136,24 @@ Map {
 }
 
 #waterway {
+   line-opacity: 0.5;
   [type='river'],
   [type='canal'] {
-    line-color: @water;
+    line-color: @water;  
     line-width: 0.5;
     [zoom>=12] { line-width: 1; }
     [zoom>=14] { line-width: 2; }
     [zoom>=16] { line-width: 3; }
   }
-  [type='stream'] {
+  [type='stream'],[type='stream_intermittent'], 
+  [type='drain'], 
+  [type='ditch'] {
     line-color: @water;
     line-width: 0.5;
     [zoom>=14] { line-width: 1; }
     [zoom>=16] { line-width: 2; }
     [zoom>=18] { line-width: 3; }
-  }
+  }  
 }
 
 

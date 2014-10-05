@@ -6,7 +6,7 @@
   [class='service'][zoom>=17] {
     text-name: [name];
     text-face-name: @thereg;
-    text-fill: @roadcolor;
+    text-fill: @roadlabelcolor;
     text-placement: line;
     text-avoid-edges: true;
   //  text-halo-fill: bright;
@@ -23,7 +23,7 @@
     }
     [class='service'] {
       text-size: 16;
-      text-fill: @roadcolor;
+      text-fill: @roadlabelcolor;
     }
   }
 }
