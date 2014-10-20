@@ -4,8 +4,8 @@
 <meta charset=utf-8 />
 <title>St. Vincent De Paul Conferences in Northeast Ohio</title>
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
 <script src='http://code.jquery.com/jquery-2.1.1.js'></script>
 <script src="//d79i1fxsrar4t.cloudfront.net/jquery.liveaddress/2.4/jquery.liveaddress.min.js"></script> 
 <style>
@@ -101,6 +101,12 @@
  
 </div>
 <script>
+
+// MAPBOX api token; and initialize, req for 2.0+
+L.mapbox.accessToken = 'pk.eyJ1Ijoic2tvcmFzYXVydXMiLCJhIjoiaEdGTUZWTSJ9.osOC8tWU3bMaNprVNoEu7g'; 
+
+
+
 var mymap = L.mapbox.map('map', 'skorasaurus.918a6542')
     .setView([41.449096,-81.648331], 11);
 
@@ -121,7 +127,9 @@ var mymap = L.mapbox.map('map', 'skorasaurus.918a6542')
 
 /** CONFIGURE smartystreets **/
 
-    var htmlKey = "3548360835619230092";      // Put your HTML key here  
+   var htmlKey = "3548360835619230092";      // Put your HTML key here  
+    //    var htmlKey = "3548360835023561920";      // local one 
+
     var debug = false;          // Toggle debug mode
 
     var testRunnerVersion = "1.1.6";  // The version of this test runner page
