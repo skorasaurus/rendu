@@ -4,27 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Parish": "Holy Spirit",
-        "Address": "4341 East 131st St.",
-        "Zip": "44125",
-        "City": "Garfield Heights",
-        "State": "OH",
-        "County": "Cuyahoga",
-        "Phone": "216-581-0981",
-        "Group": "East District",
-        "Services": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.58936,
-          41.44134
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Parish": "Communion of Saints",
         "Address": "2175 Coventry Rd.",
         "Zip": "44118",
@@ -1123,7 +1102,7 @@
         "City": "Solon",
         "State": "OH",
         "County": "Cuyahoga",
-        "Phone": "440-348-1650",
+        "Phone": "440-248-1350",
         "Group": "East District",
         "Services": ""
       },
@@ -1279,6 +1258,27 @@
         "coordinates": [
           -81.64828,
           41.52275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Parish": "St. Mary",
+        "Address": "527 Beele Avenue.",
+        "Zip": "44103",
+        "City": "Wooster",
+        "State": "OH",
+        "County": "Wayne",
+        "Phone": "330-264-8824",
+        "Group": "Akron District",
+        "Services": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.934174,
+          40.804801
         ]
       }
     },
