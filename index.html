@@ -118,6 +118,8 @@ var mymap = L.mapbox.map('map', 'skorasaurus.918a6542')
       layer.bindPopup(
         feature.properties.Parish + '<br \/>' + 
         feature.properties.Address + '<br \/>' + 
+        feature.properties.City + '<br \/>' +
+        feature.properties.Zip + '<br \/>' + 
         feature.properties.Phone + '<br \/>' 
       );
      }
