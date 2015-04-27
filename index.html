@@ -6,6 +6,7 @@
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js'></script>
 <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
 <script src='http://code.jquery.com/jquery-2.1.1.js'></script>
 <script src="//d79i1fxsrar4t.cloudfront.net/jquery.liveaddress/2.4/jquery.liveaddress.min.js"></script> 
 <style>
@@ -112,20 +113,23 @@ var mymap = L.mapbox.map('map', 'skorasaurus.918a6542')
 
 // old map id skorasaurus.3iunyt15 - made w/ tm2 in beta
 
-  $.getJSON("./locations.geojson", function(data) {
-    var geojson = L.geoJson(data, {
-     onEachFeature: function (feature, layer) {
+
+var customLayer = L.geoJson(null, {
+    // http://leafletjs.com/reference.html#geojson-style
+   onEachFeature: function (feature, layer) {
       layer.bindPopup(
-        feature.properties.Parish + '<br \/>' + 
+        feature.properties.Name + '<br \/>' + 
         feature.properties.Address + '<br \/>' + 
         feature.properties.City + '<br \/>' +
-        feature.properties.Zip + '<br \/>' + 
-        feature.properties.Phone + '<br \/>' 
+        feature.properties.zip + '<br \/>' + 
+        feature.properties.phone + '<br \/>' 
       );
      }
-    });
-    geojson.addTo(mymap);
-  });
+});
+
+// this can be any kind of omnivore layer
+var runLayer = omnivore.csv('data/places.csv', null, customLayer);
+runLayer.addTo(mymap);
 
 /** CONFIGURE smartystreets **/
 
