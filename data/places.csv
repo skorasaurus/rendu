@@ -1,4 +1,4 @@
-Name,Address,City,State,zip,phone,district,latitude,longitude
+name,Address,City,State,zip,phone,district,latitude,longitude
 Blessed Trinity,300 East Tallmadge Avenue,Akron,OH,44310,330-376-5144,akron,41.10211,-81.50434
 Holy Family,3450 Sycamore Drive,Stow,OH,44224,330-688-6411,akron,41.15858,-81.4447
 Immaculate Conception ,2101 17th Street S.W.,Akron,OH,44314,330-753-8429,akron,41.04495,-81.56143
