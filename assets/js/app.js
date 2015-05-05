@@ -87,7 +87,7 @@ function syncSidebar() {
   hotmeals.eachLayer(function (layer) {
     if (map.hasLayer(hotmealLayer)) {
       if (map.getBounds().contains(layer.getLatLng())) {
-        $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/hotmeal.png"></td><td class="feature-name">' + layer.feature.properties.name + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+        $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/marker-24.png"></td><td class="feature-name">' + layer.feature.properties.name + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
       }
     }
   });
@@ -95,7 +95,7 @@ function syncSidebar() {
   pantries.eachLayer(function (layer) {
     if (map.hasLayer(pantryLayer)) {
       if (map.getBounds().contains(layer.getLatLng())) {
-        $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/pantry.png"></td><td class="feature-name">' + layer.feature.properties.name + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+        $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/marker.png"></td><td class="feature-name">' + layer.feature.properties.name + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
       }
     }
   });
@@ -109,7 +109,7 @@ function syncSidebar() {
 }
 
 /* Basemap Layers */
-var mapquestOSM = L.tileLayer("http://{s}.tiles.mapbox.com/v3/skorasaurus.jjechb76/{z}/{x}/{y}.png", {
+var mapquestOSM = L.tileLayer("http://{s}.tiles.mapbox.com/v3/skorasaurus.3iunyt15/{z}/{x}/{y}.png", {
   maxZoom: 19,
   attribution: 'Tiles courtesy of <a href="http://www.mapbox.com/" target="_blank">Mapbox</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png">. Map data (c) <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors, CC-BY-SA.'
 });
@@ -151,7 +151,7 @@ var hotmeals = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
     return L.marker(latlng, {
       icon: L.icon({
-        iconUrl: "assets/img/hotmeal.png",
+        iconUrl: "assets/img/marker-24.png",
         iconSize: [32, 32],
         iconAnchor: [12, 28],
         popupAnchor: [0, -25]
@@ -161,11 +161,11 @@ var hotmeals = L.geoJson(null, {
     });
   },
   filter: function(feature, layer) {
-    return feature.properties.kind == "Hot Meal";
+    return feature.properties.district == "none";
   }, 
   onEachFeature: function (feature, layer) {
     if (feature.properties) {
-      var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>Name</th><td>" + feature.properties.name + "</td></tr>" + "<tr><th>Phone</th><td>" + feature.properties.call + "</td></tr>" + "<tr><th>Address</th><td>" + feature.properties.address + "&nbsp;&nbsp;" + feature.properties.zip + "</td></tr>" + "<tr><th>When</th><td>" + feature.properties.when + "</td></tr>" + "<tr><th>Eligible for</th><td>" + feature.properties.forwhom + "</td></tr>" + "<tr><th>Website</th><td><a class='url-break' href='" + feature.properties.URL + "' target='_blank'>" + feature.properties.URL + "</a></td></tr>" + "<table>";
+      var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>Name</th><td>" + feature.properties.name + "</td></tr>" + "<tr><th>Phone</th><td>" + feature.properties.phone + "</td></tr>" + "<tr><th>Address</th><td>" + feature.properties.Address + "&nbsp;&nbsp;" + feature.properties.zip + "</td></tr>" + "<tr><th>District</th><td>" + feature.properties.district + "</td></tr>" + "<tr><th>Eligible for</th><td>" + feature.properties.forwhom + "</td></tr>" + "<tr><th>Website</th><td><a class='url-break' href='" + feature.properties.URL + "' target='_blank'>" + feature.properties.URL + "</a></td></tr>" + "<table>";
       layer.on({
         click: function (e) {
           $("#feature-title").html(feature.properties.name);
@@ -174,10 +174,10 @@ var hotmeals = L.geoJson(null, {
           highlight.clearLayers().addLayer(L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], highlightStyle));
         }
       });
-      $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/hotmeal.png"></td><td class="feature-name">' + layer.feature.properties.name + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+      $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/marker-24.png"></td><td class="feature-name">' + layer.feature.properties.name + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
       hotmealSearch.push({
         name: layer.feature.properties.name,
-        address: layer.feature.properties.address,
+        address: layer.feature.properties.Address,
         source: "Hot Meals",
         id: L.stamp(layer),
         lat: layer.feature.geometry.coordinates[1],
@@ -186,11 +186,10 @@ var hotmeals = L.geoJson(null, {
     }
   }
 });
-
-
-// this can be any kind of omnivore layer
-omnivore.csv('data/places.csv', null, hotmeals);
-// hotmeals.addTo(map);
+$.getJSON("data/places.geojson", function (data) {
+  hotmeals.addData(data);
+  map.addLayer(hotmealLayer);
+});
 
 /* Empty layer placeholder to add to layer control for listening when to add/remove pantries to markerClusters layer */
 var pantryLayer = L.geoJson(null);
@@ -198,7 +197,7 @@ var pantries = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
     return L.marker(latlng, {
       icon: L.icon({
-        iconUrl: "assets/img/pantry.png",
+        iconUrl: "assets/img/marker.png",
         iconSize: [32, 32],
         iconAnchor: [12, 28],
         popupAnchor: [0, -25]
@@ -208,11 +207,11 @@ var pantries = L.geoJson(null, {
     });
   },
   filter: function(feature, layer) {
-    return feature.properties.kind == "Pantry";
+    return feature.properties.district !== "none";
   }, 
   onEachFeature: function (feature, layer) {
     if (feature.properties) {
-      var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>Name</th><td>" + feature.properties.name + "</td></tr>" + "<tr><th>Phone</th><td>" + feature.properties.call + "</td></tr>" + "<tr><th>Address</th><td>" + feature.properties.address + "&nbsp;&nbsp;" + feature.properties.zip + "</td></tr>" + "<tr><th>When</th><td>" + feature.properties.when + "</td></tr>" + "<tr><th>Eligible for</th><td>" + feature.properties.forwhom + "</td></tr>" + "<tr><th>Website</th><td><a class='url-break' href='" + feature.properties.URL + "' target='_blank'>" + feature.properties.URL + "</a></td></tr>" + "<table>";
+      var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>Name</th><td>" + feature.properties.name + "</td></tr>" + "<tr><th>Phone</th><td>" + feature.properties.phone + "</td></tr>" + "<tr><th>Address</th><td>" + feature.properties.Address + "&nbsp;&nbsp;" + feature.properties.zip + "</td></tr>" + "<tr><th>District</th><td>" + feature.properties.district + "</td></tr>" + "<tr><th>Website</th><td><a class='url-break' href='" + feature.properties.URL + "' target='_blank'>" + feature.properties.URL + "</a></td></tr>" + "<table>";
       layer.on({
         click: function (e) {
           $("#feature-title").html(feature.properties.name);
@@ -221,7 +220,7 @@ var pantries = L.geoJson(null, {
           highlight.clearLayers().addLayer(L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], highlightStyle));
         }
       });
-      $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/pantry.png"></td><td class="feature-name">' + layer.feature.properties.name + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+      $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/marker.png"></td><td class="feature-name">' + layer.feature.properties.name + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
       pantrySearch.push({
         name: layer.feature.properties.name,
         address: layer.feature.properties.address,
@@ -233,7 +232,7 @@ var pantries = L.geoJson(null, {
     }
   }
 });
-$.getJSON("places.geojson", function (data) { 
+$.getJSON("data/places.geojson", function (data) { 
   pantries.addData(data);
   map.addLayer(pantryLayer);
 });
@@ -351,8 +350,8 @@ var baseLayers = {
 
 var groupedOverlays = {
   "Points of Interest": {
-    "<img src='assets/img/hotmeal.png' width='32' height='32'>&nbsp;Hot Meals": hotmealLayer,
-    "<img src='assets/img/pantry.png' width='32' height='32'>&nbsp;Pantries": pantryLayer
+    "<img src='assets/img/marker-24.png' width='32' height='32'>&nbsp;Parishes": hotmealLayer,
+    "<img src='assets/img/marker.png' width='32' height='32'>&nbsp;Conferences": pantryLayer
   }
 };
 
@@ -384,7 +383,7 @@ $(document).one("ajaxStop", function () {
   featureList.sort("feature-name", {order:"asc"});
 
   var hotmealsBH = new Bloodhound({
-    name: "Hot Meals",
+    name: "Parishes",
     datumTokenizer: function (d) {
       return Bloodhound.tokenizers.whitespace(d.name);
     },
@@ -394,7 +393,7 @@ $(document).one("ajaxStop", function () {
   });
 
   var pantriesBH = new Bloodhound({
-    name: "Pantries",
+    name: "Conferences",
     datumTokenizer: function (d) {
       return Bloodhound.tokenizers.whitespace(d.name);
     },
@@ -445,13 +444,22 @@ $(document).one("ajaxStop", function () {
     highlight: true,
     hint: false
   }, {
-    name: "Pantries",
+    name: "Parishes",
+    displayKey: "name",
+    source: hotmealsBH.ttAdapter(),
+    templates: {
+      header: "<h4 class='typeahead-header'><img src='assets/img/marker-24.png' width='24' height='28'>&nbsp;Hot Meals</h4>",
+      suggestion: Handlebars.compile(["{{name}}<br>&nbsp;<small>{{address}}</small>"].join(""))
+    }
+    },  
+    {
+    name: "Conferences",
     displayKey: "name",
     source: pantriesBH.ttAdapter(),
     templates: {
-      header: "<h4 class='typeahead-header'><img src='assets/img/pantry.png' width='24' height='28'>&nbsp;Hot Meals</h4>",
+      header: "<h4 class='typeahead-header'><img src='assets/img/marker.png' width='24' height='28'>&nbsp;Pantries</h4>",
       suggestion: Handlebars.compile(["{{name}}<br>&nbsp;<small>{{address}}</small>"].join(""))
-    }
+    } 
   }).on("typeahead:selected", function (obj, datum) {
     if (datum.source === "Hot Meals") {
       if (!map.hasLayer(hotmealLayer)) {
