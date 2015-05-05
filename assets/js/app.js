@@ -165,7 +165,7 @@ var hotmeals = L.geoJson(null, {
   }, 
   onEachFeature: function (feature, layer) {
     if (feature.properties) {
-      var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>Name</th><td>" + feature.properties.name + "</td></tr>" + "<tr><th>Phone</th><td>" + feature.properties.phone + "</td></tr>" + "<tr><th>Address</th><td>" + feature.properties.Address + "&nbsp;&nbsp;" + feature.properties.zip + "</td></tr>" + "<tr><th>District</th><td>" + feature.properties.district + "</td></tr>" + "<tr><th>Eligible for</th><td>" + feature.properties.forwhom + "</td></tr>" + "<tr><th>Website</th><td><a class='url-break' href='" + feature.properties.URL + "' target='_blank'>" + feature.properties.URL + "</a></td></tr>" + "<table>";
+      var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>Name</th><td>" + feature.properties.name + "</td></tr>" + "<tr><th>Phone</th><td>" + feature.properties.phone + "</td></tr>" + "<tr><th>Address</th><td>" + feature.properties.Address + "&nbsp;&nbsp;" + feature.properties.zip + "</td></tr>" + "<tr><th>District</th><td>" + feature.properties.district + "</td></tr>" + "<table>";
       layer.on({
         click: function (e) {
           $("#feature-title").html(feature.properties.name);
