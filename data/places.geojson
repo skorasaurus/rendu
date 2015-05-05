@@ -1,0 +1,3729 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Blessed Trinity",
+                "Address": "300 East Tallmadge Avenue",
+                "City": "Akron",
+                "State": "OH",
+                "zip": 44310,
+                "phone": "330-376-5144",
+                "district": "akron"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.50434,
+                    41.10211
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Holy Family",
+                "Address": "3450 Sycamore Drive",
+                "City": "Stow",
+                "State": "OH",
+                "zip": 44224,
+                "phone": "330-688-6411",
+                "district": "akron"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.4447,
+                    41.15858
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Immaculate Conception ",
+                "Address": "2101 17th Street S.W.",
+                "City": "Akron",
+                "State": "OH",
+                "zip": 44314,
+                "phone": "330-753-8429",
+                "district": "akron"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.56143,
+                    41.04495
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mother of Sorrows",
+                "Address": "6034 South Locust Street",
+                "City": "Peninsula",
+                "State": "OH",
+                "zip": 44264,
+                "phone": "330-657-2631",
+                "district": "akron"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.54821,
+                    41.24019
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nativity",
+                "Address": "2425 Myersville Road",
+                "City": "Akron",
+                "State": "OH",
+                "zip": 44312,
+                "phone": "330-699-5086",
+                "district": "akron"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.43632,
+                    40.99747
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Prince of Peace",
+                "Address": "1263 Shannon Avenue",
+                "City": "Barberton",
+                "State": "OH",
+                "zip": 44203,
+                "phone": "330-849-0946",
+                "district": "akron"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.63643,
+                    41.01558
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Queen of Heaven",
+                "Address": "1800 Steese Road",
+                "City": "Uniontown",
+                "State": "OH",
+                "zip": 44685,
+                "phone": "330-896-2345",
+                "district": "akron"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.469,
+                    40.94735
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sacred Heart of Jesus ",
+                "Address": "260 Broad Street",
+                "City": "Wadsworth",
+                "State": "OH",
+                "zip": 44281,
+                "phone": "330-336-3049",
+                "district": "akron"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.72402,
+                    41.02557
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Agnes",
+                "Address": "541 Spring Street",
+                "City": "Orrville",
+                "State": "OH",
+                "zip": 44667,
+                "phone": "330-682-3606",
+                "district": "akron"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.75883,
+                    40.83532
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Augustine OH",
+                "Address": "204 Sixth Street N.W.",
+                "City": "Barberton",
+                "State": "OH",
+                "zip": 44203,
+                "phone": "330-745-0011",
+                "district": "akron"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.61246,
+                    41.01645
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Edward",
+                "Address": "501 Cottage Street",
+                "City": "Ashland",
+                "State": "OH",
+                "zip": 44805,
+                "phone": "419-289-7224",
+                "district": "akron"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.31817,
+                    40.87179
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Francis De Sales",
+                "Address": "4019 Manchester Rd",
+                "City": "Akron",
+                "State": "OH",
+                "zip": 44319,
+                "phone": "330-644-2225",
+                "district": "akron"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.55804,
+                    40.99286
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Francis Xavier",
+                "Address": "606 East Washington Street",
+                "City": "Medina",
+                "State": "OH",
+                "zip": 44256,
+                "phone": "330-725-4968",
+                "district": "akron"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.85437,
+                    41.13798
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Hilary",
+                "Address": "2750 W. Market Street",
+                "City": "Akron",
+                "State": "OH",
+                "zip": 44333,
+                "phone": "330-867-1055",
+                "district": "akron"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.59952,
+                    41.12308
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Joseph",
+                "Address": "2617 Waterloo Rd",
+                "City": "Mogadore",
+                "State": "OH",
+                "zip": 44260,
+                "phone": "330-628-9555",
+                "district": "akron"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.29844,
+                    41.02808
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Mary Wooster",
+                "Address": "P.O. Box 240",
+                "City": "Apple Creek  ",
+                "State": "OH",
+                "zip": 44602,
+                "phone": "330-264-8824",
+                "district": "akron"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.8013,
+                    40.73544
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Paul",
+                "Address": "1580 Brown Street",
+                "City": "Akron",
+                "State": "OH",
+                "zip": 44301,
+                "phone": "330-724-1253",
+                "district": "akron"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.51046,
+                    41.03866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Sebastian",
+                "Address": "476 Mull Avenue",
+                "City": "Akron",
+                "State": "OH",
+                "zip": 44320,
+                "phone": "330-836-2233",
+                "district": "akron"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.56611,
+                    41.09939
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Victor",
+                "Address": "3435 Everett Road",
+                "City": "Richfield",
+                "State": "OH",
+                "zip": 44286,
+                "phone": "330-659-6591",
+                "district": "akron"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.6161,
+                    41.20239
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cathedral of St. John the Evangelist",
+                "Address": "1007 Superior Avenue",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44114,
+                "phone": "216-771-6666",
+                "district": "east"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.68794,
+                    41.50302
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Communion of Saints Parish",
+                "Address": "2175 Coventry Road",
+                "City": "Cleveland Heights",
+                "State": "OH",
+                "zip": 44118,
+                "phone": "216-321-0024",
+                "district": "east"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.57897,
+                    41.50032
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gesu",
+                "Address": "2470 Miramar Boulevard",
+                "City": "University Hts",
+                "State": "OH",
+                "zip": 44118,
+                "phone": "216-932-0617",
+                "district": "east"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.53234,
+                    41.49235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Holy Name",
+                "Address": "8328 Broadway Avenue",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44105,
+                "phone": "216-271-4242",
+                "district": "east"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.62895,
+                    41.44971
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Our Lady of Hope ",
+                "Address": "400 Center Road",
+                "City": "Bedford",
+                "State": "OH",
+                "zip": 44146,
+                "phone": "440-232-8166",
+                "district": "east"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.53715,
+                    41.40373
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sacred Heart of Jesus",
+                "Address": "1545 South Green Road",
+                "City": "South Euclid ",
+                "State": "OH",
+                "zip": 44121,
+                "phone": "216-382-7601",
+                "district": "east"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.51932,
+                    41.51758
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Aloysius & Agatha",
+                "Address": "109302 Saint Clair Avenue",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44108,
+                "phone": "216-451-3262",
+                "district": "east"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.60981,
+                    41.5355
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. John Nepomucene",
+                "Address": "3785 Independence Road",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44105,
+                "phone": "216-641-8444",
+                "district": "east"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.65768,
+                    41.45702
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Monica",
+                "Address": "13623 Rockside Road",
+                "City": "Garfield Hts.",
+                "State": "OH",
+                "zip": 44125,
+                "phone": "216-662-8685",
+                "district": "east"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.58648,
+                    41.40371
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Rita",
+                "Address": "32820 Baldwin Road",
+                "City": "Solon",
+                "State": "OH",
+                "zip": 44139,
+                "phone": "440-248-1350",
+                "district": "east"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.44583,
+                    41.38509
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Therese",
+                "Address": "5276 East 105th Street",
+                "City": "Garfield Hts.",
+                "State": "OH",
+                "zip": 44125,
+                "phone": "216-581-2852",
+                "district": "east"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.61165,
+                    41.41793
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Vitus",
+                "Address": "6019 Lausche Avenue",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44103,
+                "phone": "216-361-1444",
+                "district": "east"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.64934,
+                    41.52228
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sts. Peter & Paul",
+                "Address": "4750 Turney Road",
+                "City": "Garfield Hts.",
+                "State": "OH",
+                "zip": 44125,
+                "phone": "216-429-1515",
+                "district": "east"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.61701,
+                    41.43123
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Divine Word",
+                "Address": "8100 Eagle Road",
+                "City": "Kirtland",
+                "State": "OH",
+                "zip": 44094,
+                "phone": "440-256-1412",
+                "district": "lakegeauga"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.35191,
+                    41.60341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Immaculate Conception",
+                "Address": "37940 Euclid Ave",
+                "City": "Willoughby",
+                "State": "OH",
+                "zip": 44094,
+                "phone": "440-942-4500",
+                "district": "lakegeauga"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.40953,
+                    41.63484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Our Lady of Mt. Carmel ",
+                "Address": "1730 Mt. Carmel Drive",
+                "City": "Wickliffe  ",
+                "State": "OH",
+                "zip": 44094,
+                "phone": "440-585-8611",
+                "district": "lakegeauga"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.46573,
+                    41.61113
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Gabriel",
+                "Address": "9925 Old Johnnycake Ridge Road",
+                "City": "Concord Twp.",
+                "State": "OH",
+                "zip": 44060,
+                "phone": "440-352-8282",
+                "district": "lakegeauga"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.33851,
+                    41.68606
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. John Vianney",
+                "Address": "7575 Bellflower Road",
+                "City": "Mentor",
+                "State": "OH",
+                "zip": 44060,
+                "phone": "440-255-0600",
+                "district": "lakegeauga"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.37018,
+                    41.68671
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Mary ",
+                "Address": "401 North Street",
+                "City": "Chardon ",
+                "State": "OH",
+                "zip": 44024,
+                "phone": "440-285-7051",
+                "district": "lakegeauga"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20669,
+                    41.58912
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Mary Magdalene",
+                "Address": "32114 Vine Street ",
+                "City": "Willowick",
+                "State": "OH",
+                "zip": 44095,
+                "phone": "440-943-2133",
+                "district": "lakegeauga"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.46124,
+                    41.64243
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sacred Heart Chapel",
+                "Address": "4301 Pearl Ave",
+                "City": "Lorain",
+                "State": "OH",
+                "zip": 44055,
+                "phone": "440-277-7231",
+                "district": "lorain"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.13615,
+                    41.4277
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Agnes",
+                "Address": "611 Lake Avenue   ",
+                "City": "Elyria ",
+                "State": "OH",
+                "zip": 44035,
+                "phone": "440-322-5622",
+                "district": "lorain"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.12022,
+                    41.37728
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Anthony of Padua",
+                "Address": "1305 East Erie Avenue",
+                "City": "Lorain",
+                "State": "OH",
+                "zip": 44052,
+                "phone": "440-288-0106",
+                "district": "lorain"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.16048,
+                    41.47502
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Joseph - Avon Lake",
+                "Address": "32929 Lake Road",
+                "City": "Avon Lake",
+                "State": "OH",
+                "zip": 44012,
+                "phone": "440-933-3152",
+                "district": "lorain"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.02649,
+                    41.51033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Peter - Lorain",
+                "Address": "3655 Oberlin Avenue",
+                "City": "Lorain",
+                "State": "OH",
+                "zip": 44053,
+                "phone": "440-282-9103",
+                "district": "lorain"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.18531,
+                    41.4374
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Vincent De Paul",
+                "Address": "41295 North Ridge Road",
+                "City": "Elyria",
+                "State": "OH",
+                "zip": 44035,
+                "phone": "440-324-4212",
+                "district": "lorain"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.12219,
+                    41.41844
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Guardian Angels Parish",
+                "Address": "1686 Cleveland-Massillion Road",
+                "City": "Copley",
+                "State": "OH",
+                "zip": 44321,
+                "phone": "330-666-1373",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.64471,
+                    41.09234
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Holy Angels Parish",
+                "Address": "18205 Chillicothe Road",
+                "City": "Chagrin Falls",
+                "State": "OH",
+                "zip": 44023,
+                "phone": "440-708-0000",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.33852,
+                    41.37228
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Holy Family Parish",
+                "Address": "7367 York Road",
+                "City": "Parma",
+                "State": "OH",
+                "zip": 44130,
+                "phone": "440-842-5533",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.75964,
+                    41.3659
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Holy Martyrs Parish",
+                "Address": "3100 South Weymouth Road",
+                "City": "Medina",
+                "State": "OH",
+                "zip": 44256,
+                "phone": "330-722-6633",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.7926,
+                    41.18748
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Holy Redeemer Parish",
+                "Address": "15712 Kipling Avenue",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44110,
+                "phone": "216-531-3313",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.56774,
+                    41.55435
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Holy Rosary Parish",
+                "Address": "12021 Mayfield Road",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44106,
+                "phone": "216-421-2995",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.59877,
+                    41.50864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Holy Spirit Parish",
+                "Address": "410 Lear Road",
+                "City": "Avon Lake",
+                "State": "OH",
+                "zip": 44012,
+                "phone": "440-933-3777",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.99024,
+                    41.4943
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Holy Spirit Parish",
+                "Address": "4341 East 131st Street",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44105,
+                "phone": "216-581-0981",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.58936,
+                    41.44134
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Holy Trinity Parish",
+                "Address": "33601 Detroit Road",
+                "City": "Avon",
+                "State": "OH",
+                "zip": 44011,
+                "phone": "440-937-5363",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.98991,
+                    41.45188
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Immaculate Conception Parish",
+                "Address": "2846 Hubbard Road",
+                "City": "Madison",
+                "State": "OH",
+                "zip": 44057,
+                "phone": "440-428-5164",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.05059,
+                    41.79734
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Immaculate Conception Parish",
+                "Address": "4129 Superior Avenue",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44103,
+                "phone": "216-431-5900",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.66079,
+                    41.51501
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Immaculate Heart of Mary Parish",
+                "Address": "1905 Portage Trail",
+                "City": "Cuyahoga Falls",
+                "State": "OH",
+                "zip": 44223,
+                "phone": "330-929-8361",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.50711,
+                    41.14838
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Immaculate Heart of Mary Parish",
+                "Address": "6700 Lansing Avenue",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44105,
+                "phone": "216-341-2734",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.64252,
+                    41.45214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mary Queen of the Apostles Parish",
+                "Address": "6455 Engle Road",
+                "City": "Brook Park",
+                "State": "OH",
+                "zip": 44142,
+                "phone": "216-433-1440",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.82166,
+                    41.39196
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nativity of Blessed Virgin Mary Parish",
+                "Address": "333 South Lake Street",
+                "City": "South Amherst",
+                "State": "OH",
+                "zip": 44001,
+                "phone": "440-986-7011",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.2393,
+                    41.36433
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nativity of Blessed Virgin Mary Parish",
+                "Address": "418 West 15 Street",
+                "City": "Lorain",
+                "State": "OH",
+                "zip": 44052,
+                "phone": "440-244-9090",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.17268,
+                    41.45597
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Our Lady Help of Christians Parish",
+                "Address": "9608 Norwalk Road",
+                "City": "Litchfield",
+                "State": "OH",
+                "zip": 44253,
+                "phone": "330-772-1180",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.03992,
+                    41.1681
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Our Lady of Angels Parish",
+                "Address": "3644 Rocky River Drive",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44111,
+                "phone": "216-252-2332",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.81674,
+                    41.45438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Our Lady of Grace Parish",
+                "Address": "1088 Ridge Road",
+                "City": "Hinckley",
+                "State": "OH",
+                "zip": 44233,
+                "phone": "330-278-4121",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.74484,
+                    41.24944
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Our Lady of Guadalupe Parish",
+                "Address": "9080 Shepard Road",
+                "City": "Macedonia",
+                "State": "OH",
+                "zip": 44056,
+                "phone": "330-468-2194",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.4898,
+                    41.32081
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Our Lady of Lourdes Parish",
+                "Address": "3395 East 53rd Street",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44127,
+                "phone": "216-641-2829",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.65284,
+                    41.46494
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Our Lady of Mt. Carmel Parish",
+                "Address": "6928 Detroit Avenue",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44102,
+                "phone": "216-651-5043",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.733,
+                    41.48376
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Our Lady of Peace Parish",
+                "Address": "12503 Buckingham Avenue",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44120,
+                "phone": "216-421-4211",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.59484,
+                    41.48447
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Our Lady of the Lake Parish",
+                "Address": "19951 Lake Shore Boulevard",
+                "City": "Euclid",
+                "State": "OH",
+                "zip": 44123,
+                "phone": "216-486-0850",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.54125,
+                    41.60105
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Our Lady of Victory Parish",
+                "Address": "73 North Avenue",
+                "City": "Tallmadge",
+                "State": "OH",
+                "zip": 44278,
+                "phone": "330-633-3637",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.44089,
+                    41.10425
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Our Lady Queen of Peace Parish",
+                "Address": "708 Erie Street",
+                "City": "Grafton",
+                "State": "OH",
+                "zip": 44044,
+                "phone": "440-926-2364",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.06008,
+                    41.27692
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Resurrection of Our Lord Parish",
+                "Address": "32001 Cannon Road",
+                "City": "Solon",
+                "State": "OH",
+                "zip": 44139,
+                "phone": "440-248-0980",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.4519,
+                    41.40933
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sacred Heart Parish",
+                "Address": "410 West Lorain Street",
+                "City": "Oberlin",
+                "State": "OH",
+                "zip": 44074,
+                "phone": "440-774-6791",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.23455,
+                    41.29435
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "SS. Cosmas & Damian Parish",
+                "Address": "10419 Ravenna Road",
+                "City": "Twinsburg",
+                "State": "OH",
+                "zip": 44087,
+                "phone": "330-425-8141",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.4571,
+                    41.32476
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "SS. Peter & Paul Parish",
+                "Address": "161 West Clinton Street",
+                "City": "Doylestown",
+                "State": "OH",
+                "zip": 44230,
+                "phone": "330-658-2145",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.69323,
+                    40.96465
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "SS. Robert & William Parish",
+                "Address": "367 East 260th Street",
+                "City": "Euclid",
+                "State": "OH",
+                "zip": 44132,
+                "phone": "216-731-1515",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.50238,
+                    41.61761
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Adalbert Parish",
+                "Address": "2347 East 83rd Street",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44104,
+                "phone": "216-881-7647",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.62951,
+                    41.4948
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Agnes - Our Lady of Fatima Parish",
+                "Address": "6800 Lexington Avenue",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44103,
+                "phone": "216-391-1655",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.6426,
+                    41.51065
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Albert the Great Parish",
+                "Address": "6667 Wallings Road",
+                "City": "North Royalton",
+                "State": "OH",
+                "zip": 44133,
+                "phone": "440-237-6760",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.73315,
+                    41.32195
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Ambrose Parish",
+                "Address": "929 Pearl Road",
+                "City": "Brunswick",
+                "State": "OH",
+                "zip": 44212,
+                "phone": "330-225-3116",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.84112,
+                    41.24942
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Andrew Kim (Korean Pastoral Center)",
+                "Address": "2310 West 14th Street",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44113,
+                "phone": "216-861-4630",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.69186,
+                    41.48047
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Andrew the Apostle Parish",
+                "Address": "4022 Johnson Road",
+                "City": "Norton",
+                "State": "OH",
+                "zip": 44203,
+                "phone": "330-825-2617",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.66604,
+                    41.00383
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Anne Parish",
+                "Address": "139 South First St.",
+                "City": "Rittman",
+                "State": "OH",
+                "zip": 44270,
+                "phone": "330-927-2941",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.784,
+                    40.97224
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Anselm Parish",
+                "Address": "12969 Chillicothe Road",
+                "City": "Chesterland",
+                "State": "OH",
+                "zip": 44026,
+                "phone": "440-729-9575",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.33742,
+                    41.51541
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Anthony of Padua Parish",
+                "Address": "316 5th Street",
+                "City": "Fairport Harbor",
+                "State": "OH",
+                "zip": 44077,
+                "phone": "440-354-4525",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.27445,
+                    41.75185
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Anthony of Padua Parish",
+                "Address": "6750 State Road",
+                "City": "Parma",
+                "State": "OH",
+                "zip": 44134,
+                "phone": "440-842-2666",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.71183,
+                    41.38208
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Anthony of Padua Parish",
+                "Address": "83 Mosser Place",
+                "City": "Akron",
+                "State": "OH",
+                "zip": 44310,
+                "phone": "330-762-7277",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.5123,
+                    41.09875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Augustine Parish",
+                "Address": "2486 West 14th Street",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44113,
+                "phone": "216-781-5530",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.69186,
+                    41.4787
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Barbara Parish",
+                "Address": "1505 Denison Avenue",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44109,
+                "phone": "216-661-1191",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.69123,
+                    41.4515
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Barnabas Parish",
+                "Address": "9451 Brandywine Road",
+                "City": "Northfield",
+                "State": "OH",
+                "zip": 44067,
+                "phone": "330-467-7959",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.53728,
+                    41.3104
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Bede the Venerable Parish",
+                "Address": "9114 Lake Shore Boulevard",
+                "City": "Mentor",
+                "State": "OH",
+                "zip": 44060,
+                "phone": "440-257-5544",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.31158,
+                    41.72076
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Bernard Parish",
+                "Address": "44 University Avenue",
+                "City": "Akron",
+                "State": "OH",
+                "zip": 44308,
+                "phone": "330-253-5161",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.51865,
+                    41.07881
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Boniface Parish",
+                "Address": "3545 West 54th Street",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44102,
+                "phone": "216-961-2713",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.72501,
+                    41.4577
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Brendan Parish",
+                "Address": "4242 Brendan Lane",
+                "City": "North Olmsted",
+                "State": "OH",
+                "zip": 44070,
+                "phone": "440-777-7222",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.88054,
+                    41.42729
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Bridget of Kildare Parish",
+                "Address": "5620 Hauserman Road",
+                "City": "Parma",
+                "State": "OH",
+                "zip": 44130,
+                "phone": "440-886-4434",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.75978,
+                    41.40834
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Casimir Parish",
+                "Address": "18022 Neff Road",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44119,
+                "phone": "216-481-3157",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.55285,
+                    41.58404
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Casimir Parish c/o St. Stanislaus Parish",
+                "Address": "3649 East 65th Street",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44105,
+                "phone": "216-361-9888",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.6449,
+                    41.45866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Charles Borromeo Parish",
+                "Address": "5891 Ridge Road",
+                "City": "Parma",
+                "State": "OH",
+                "zip": 44129,
+                "phone": "440-884-3030",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.734,
+                    41.40276
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Clare Parish",
+                "Address": "5659 Mayfield Road",
+                "City": "Lyndhurst",
+                "State": "OH",
+                "zip": 44124,
+                "phone": "440-449-4242",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.47571,
+                    41.52009
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Clarence Parish",
+                "Address": "30106 Lorain Road",
+                "City": "North Olmsted",
+                "State": "OH",
+                "zip": 44070,
+                "phone": "440-734-2414",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.95445,
+                    41.40179
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Colette Parish",
+                "Address": "330 West 130th Street",
+                "City": "Brunswick",
+                "State": "OH",
+                "zip": 44212,
+                "phone": "330-273-5500",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.7851,
+                    41.26754
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Colman Parish",
+                "Address": "2027 West 65th Street",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44102,
+                "phone": "216-651-0550",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.7301,
+                    41.47601
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Columbkille Parish",
+                "Address": "6740 Broadview Road",
+                "City": "Parma",
+                "State": "OH",
+                "zip": 44134,
+                "phone": "216-524-1987",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.69166,
+                    41.38194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Cyprian Parish",
+                "Address": "4223 Middle Ridge Road",
+                "City": "Perry",
+                "State": "OH",
+                "zip": 44081,
+                "phone": "440-259-2344",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.13591,
+                    41.77989
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Dominic Parish",
+                "Address": "3450 Norwood Road",
+                "City": "Shaker Hts.",
+                "State": "OH",
+                "zip": 44122,
+                "phone": "216-991-1444",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.546,
+                    41.46569
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Edward Parish",
+                "Address": "P.O. Box 709",
+                "City": "Parkman",
+                "State": "OH",
+                "zip": 44080,
+                "phone": "440-632-5824",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.06594,
+                    41.37019
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Elizabeth Ann Seton Parish",
+                "Address": "P.O.Box 968",
+                "City": "Columbia Station",
+                "State": "OH",
+                "zip": 44028,
+                "phone": "440-236-5095",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.93508,
+                    41.31605
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Elizabeth of Hungary Parish",
+                "Address": "P.O. Box 20175",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44104,
+                "phone": "216-231-0325",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.58517,
+                    41.47388
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Emeric Parish",
+                "Address": "1860 West 22nd Street",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44113,
+                "phone": "216-861-1937",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.70216,
+                    41.48688
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Eugene Parish",
+                "Address": "1821 Munroe Falls Avenue",
+                "City": "Cuyahoga Falls",
+                "State": "OH",
+                "zip": 44221,
+                "phone": "330-923-5244",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.45682,
+                    41.14042
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Frances Xavier Cabrini",
+                "Address": "2143 Homewood Drive",
+                "City": "Lorain",
+                "State": "OH",
+                "zip": 44055,
+                "phone": "440-277-7266",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.12195,
+                    41.43633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Francis de Sales Parish",
+                "Address": "3434 George Avenue",
+                "City": "Parma",
+                "State": "OH",
+                "zip": 44134,
+                "phone": "440-884-2319",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.70989,
+                    41.40463
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Francis of Assisi Parish",
+                "Address": "6850 Mayfield Road",
+                "City": "Gates Mills",
+                "State": "OH",
+                "zip": 44040,
+                "phone": "440-461-0066",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.43091,
+                    41.51879
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Helen Parish",
+                "Address": "12060 Kinsman Road",
+                "City": "Newbury",
+                "State": "OH",
+                "zip": 44065,
+                "phone": "440-564-5805",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.20494,
+                    41.46697
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Hilary Parish",
+                "Address": "2750 West Market Street",
+                "City": "Fairlawn",
+                "State": "OH",
+                "zip": 44333,
+                "phone": "330-867-1055",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.59952,
+                    41.12308
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Ignatius of Antioch Parish",
+                "Address": "10205 Lorain Avenue",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44111,
+                "phone": "216-251-0300",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.75649,
+                    41.46558
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Jerome Parish",
+                "Address": "15000 Lake Shore Blvd.",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44110,
+                "phone": "216-481-8200",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.5764,
+                    41.57301
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Joan of Arc Parish",
+                "Address": "496 East Washington Street",
+                "City": "Chagrin Falls",
+                "State": "OH",
+                "zip": 44022,
+                "phone": "440-247-7183",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.37559,
+                    41.4259
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. John Cantius Parish",
+                "Address": "906 College Ave. SW",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44113,
+                "phone": "216-781-9095",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.68693,
+                    41.47981
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. John Neumann Parish",
+                "Address": "16271 Pearl Road",
+                "City": "Strongsville",
+                "State": "OH",
+                "zip": 44136,
+                "phone": "440-238-1770",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.8351,
+                    41.29783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. John of the Cross Parish",
+                "Address": "140 Richmond Road",
+                "City": "Euclid",
+                "State": "OH",
+                "zip": 44143,
+                "phone": "216-289-0770",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.50027,
+                    41.58031
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. John the Baptist c/o Visitation of Mary Parish",
+                "Address": "87 Broad Street",
+                "City": "Akron",
+                "State": "OH",
+                "zip": 44305,
+                "phone": "330-535-4502",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.48871,
+                    41.07317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Joseph Parish",
+                "Address": "12700 Pearl Road",
+                "City": "Strongsville",
+                "State": "OH",
+                "zip": 44136,
+                "phone": "440-238-5555",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.83864,
+                    41.32057
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Joseph Parish",
+                "Address": "200 St. Joseph Drive",
+                "City": "Amherst",
+                "State": "OH",
+                "zip": 44001,
+                "phone": "440-988-2848",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.21918,
+                    41.40425
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Joseph Parish",
+                "Address": "215 Falls Avenue",
+                "City": "Cuyahoga Falls",
+                "State": "OH",
+                "zip": 44221,
+                "phone": "330-928-2173",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.48512,
+                    41.13244
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Jude Parish",
+                "Address": "590 Poplar Street",
+                "City": "Elyria",
+                "State": "OH",
+                "zip": 44035,
+                "phone": "440-366-5711",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.08521,
+                    41.38323
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Julie Billiart Parish",
+                "Address": "5545 Opal Drive",
+                "City": "North Ridgeville",
+                "State": "OH",
+                "zip": 44039,
+                "phone": "440-327-1978",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.99424,
+                    41.40852
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Justin Martyr Parish",
+                "Address": "35781 Stevens Boulevard",
+                "City": "Eastlake",
+                "State": "OH",
+                "zip": 44095,
+                "phone": "440-946-1177",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.43359,
+                    41.64835
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Leo the Great Parish",
+                "Address": "4940 Broadview Road",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44109,
+                "phone": "216-661-1006",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.6956,
+                    41.42041
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Lucy Parish",
+                "Address": "16280 Kinsman Road",
+                "City": "Middlefield",
+                "State": "OH",
+                "zip": 44062,
+                "phone": "440-548-8091",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.06175,
+                    41.46079
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Luke Parish",
+                "Address": "1212 Bunts Road",
+                "City": "Lakewood",
+                "State": "OH",
+                "zip": 44107,
+                "phone": "216-521-0184",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.78978,
+                    41.49091
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Malachi Parish",
+                "Address": "2459 Washington Avenue",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44113,
+                "phone": "216-861-5343",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.70754,
+                    41.49249
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Mark Parish",
+                "Address": "15800 Montrose Avenue",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44111,
+                "phone": "216-226-7577",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.80761,
+                    41.46804
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Martin of Tours Parish",
+                "Address": "14600 Turney Road",
+                "City": "Maple Hts.",
+                "State": "OH",
+                "zip": 44137,
+                "phone": "216-475-4300",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.58173,
+                    41.39234
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Martin of Tours Parish",
+                "Address": "1800 Station Road",
+                "City": "Valley City",
+                "State": "OH",
+                "zip": 44280,
+                "phone": "330-483-3808",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.9544,
+                    41.22509
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Mary of the Assumption Parish",
+                "Address": "8560 Mentor Avenue",
+                "City": "Mentor",
+                "State": "OH",
+                "zip": 44060,
+                "phone": "440-255-3404",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.33354,
+                    41.66663
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Mary of the Falls Parish",
+                "Address": "25615 Bagley Road",
+                "City": "Olmsted Falls",
+                "State": "OH",
+                "zip": 44138,
+                "phone": "440-235-2222",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.90343,
+                    41.37236
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Mary of the Immaculate Conception Parish",
+                "Address": "2640 Stoney Ridge Road",
+                "City": "Avon",
+                "State": "OH",
+                "zip": 44011,
+                "phone": "440-934-4212",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.03447,
+                    41.44866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Mary of the Immaculate Conception Parish",
+                "Address": "527 Beall Avenue P.O. Box 109",
+                "City": "Wooster",
+                "State": "OH",
+                "zip": 44691,
+                "phone": "330-264-8824",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.94533,
+                    40.81254
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Mary Parish",
+                "Address": "15519 Holmes Avenue",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44110,
+                "phone": "216-761-7740",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.57323,
+                    41.56067
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Mary Parish",
+                "Address": "242 North State Street",
+                "City": "Painesville",
+                "State": "OH",
+                "zip": 44077,
+                "phone": "440-354-6200",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.24422,
+                    41.73057
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Mary Parish",
+                "Address": "250 Kraft Street",
+                "City": "Berea",
+                "State": "OH",
+                "zip": 44017,
+                "phone": "440-243-3877",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.86518,
+                    41.3661
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Mary Parish",
+                "Address": "300 Union Avenue",
+                "City": "Bedford",
+                "State": "OH",
+                "zip": 44146,
+                "phone": "440-359-8205",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.52387,
+                    41.37977
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Mary Parish",
+                "Address": "309 Seventh Street",
+                "City": "Lorain",
+                "State": "OH",
+                "zip": 44052,
+                "phone": "440-245-5283",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.17639,
+                    41.46397
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Mary Parish",
+                "Address": "320 Middle Avenue",
+                "City": "Elyria",
+                "State": "OH",
+                "zip": 44035,
+                "phone": "440-323-5539",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.10667,
+                    41.36463
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Mary Parish",
+                "Address": "340 N. Main Street",
+                "City": "Hudson",
+                "State": "OH",
+                "zip": 44236,
+                "phone": "330-653-8118",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.44269,
+                    41.24637
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Mary Parish c/o St. Bernard Parish",
+                "Address": "44 University Avenue",
+                "City": "Akron",
+                "State": "OH",
+                "zip": 44308,
+                "phone": "330-253-5161",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.51865,
+                    41.07881
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Matthew Parish",
+                "Address": "2603 Benton Street",
+                "City": "Akron",
+                "State": "OH",
+                "zip": 44312,
+                "phone": "330-733-9944",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.43759,
+                    41.05374
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Matthias Parish",
+                "Address": "1200 West Sprague Road",
+                "City": "Parma",
+                "State": "OH",
+                "zip": 44134,
+                "phone": "440-888-8220",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.6867,
+                    41.35104
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Mel Parish",
+                "Address": "14436 Triskett Road",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44111,
+                "phone": "216-941-4314",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.79475,
+                    41.46141
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Michael the Archangel Parish",
+                "Address": "3114 Scranton Road",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44109,
+                "phone": "216-861-6297",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.69747,
+                    41.46947
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Noel Parish",
+                "Address": "35200 Chardon Road",
+                "City": "Willoughby Hills",
+                "State": "OH",
+                "zip": 44094,
+                "phone": "440-946-0887",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.4345,
+                    41.5887
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Paschal Baylon Parish",
+                "Address": "5384 Wilson Mills Road",
+                "City": "Highland Hts.",
+                "State": "OH",
+                "zip": 44143,
+                "phone": "440-442-3410",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.4865,
+                    41.53673
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Patrick Parish",
+                "Address": "16550 Rock Creek Road",
+                "City": "Thompson",
+                "State": "OH",
+                "zip": 44086,
+                "phone": "440-298-1327",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.05312,
+                    41.66251
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Patrick Parish",
+                "Address": "4427 Rocky River Drive",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44135,
+                "phone": "216-251-1200",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.82125,
+                    41.43513
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Patrick Parish",
+                "Address": "512 North Main Street",
+                "City": "Wellington",
+                "State": "OH",
+                "zip": 44090,
+                "phone": "440-647-4375",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.21726,
+                    41.17495
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Paul Parish",
+                "Address": "1369 East 40th Street",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44103,
+                "phone": "216-431-1895",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.66386,
+                    41.51605
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Paul Parish",
+                "Address": "433 Mission Drive",
+                "City": "Akron",
+                "State": "OH",
+                "zip": 44301,
+                "phone": "330-724-1263",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.51087,
+                    41.03736
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Peter Parish",
+                "Address": "1533 East 17th Street",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44114,
+                "phone": "216-344-2999",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.68069,
+                    41.50511
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Peter Parish",
+                "Address": "220 East Butler Street",
+                "City": "Loudonville",
+                "State": "OH",
+                "zip": 44824,
+                "phone": "419-994-4396",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.23055,
+                    40.63671
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Peter Parish",
+                "Address": "35777 Center Ridge Road",
+                "City": "North Ridgeville",
+                "State": "OH",
+                "zip": 44039,
+                "phone": "440-327-2201",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.01738,
+                    41.39041
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Raphael Parish",
+                "Address": "525 Dover Center Road",
+                "City": "Bay Village",
+                "State": "OH",
+                "zip": 44140,
+                "phone": "440-871-1100",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.92038,
+                    41.47997
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Richard Parish",
+                "Address": "26855 Lorain Road",
+                "City": "North Olmsted",
+                "State": "OH",
+                "zip": 44070,
+                "phone": "440-777-5050",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.92222,
+                    41.41635
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Stanislaus Parish",
+                "Address": "3649 East 65th Street",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44105,
+                "phone": "216-341-9091",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.6449,
+                    41.45866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Stephen Parish",
+                "Address": "1930 W. 54th Street",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44102,
+                "phone": "216-631-5633",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.72416,
+                    41.47826
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Stephen Parish",
+                "Address": "44 Britton Street",
+                "City": "West Salem",
+                "State": "OH",
+                "zip": 44287,
+                "phone": "419-853-4946",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.10511,
+                    40.97394
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Teresa of Avila Parish",
+                "Address": "1878 Abbe Road",
+                "City": "Sheffield Village",
+                "State": "OH",
+                "zip": 44054,
+                "phone": "440-934-4227",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.07673,
+                    41.46657
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Thomas More Parish",
+                "Address": "4170 North Amber Drive",
+                "City": "Brooklyn",
+                "State": "OH",
+                "zip": 44144,
+                "phone": "216-749-0414",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.73952,
+                    41.44405
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Thomas the Apostle Parish",
+                "Address": "521 Harris Road",
+                "City": "Sheffield Lake",
+                "State": "OH",
+                "zip": 44054,
+                "phone": "440-949-7744",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.09407,
+                    41.4922
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Vincent de Paul Parish",
+                "Address": "164 W. Market Street",
+                "City": "Akron",
+                "State": "OH",
+                "zip": 44303,
+                "phone": "330-535-3135",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.52341,
+                    41.08796
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Wendelin Parish",
+                "Address": "2281 Columbus Road",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44113,
+                "phone": "216-696-1926",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.70036,
+                    41.48193
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Transfiguration Parish",
+                "Address": "12608 Madison Avenue",
+                "City": "Lakewood",
+                "State": "OH",
+                "zip": 44107,
+                "phone": "216-521-7288",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.77688,
+                    41.47723
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Visitation of Mary Parish",
+                "Address": "87 Broad Street",
+                "City": "Akron",
+                "State": "OH",
+                "zip": 44305,
+                "phone": "330-535-4141",
+                "district": "none"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.48871,
+                    41.07317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Assumption - Broadview H.",
+                "Address": "9183 Broadview Road",
+                "City": "Broadview Hts.",
+                "State": "OH",
+                "zip": 44147,
+                "phone": "440-526-1177",
+                "district": "west"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.68459,
+                    41.316
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Blessed Trinity",
+                "Address": "14040 Puritas Avenue",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44135,
+                "phone": "216-671-5890",
+                "district": "west"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.79096,
+                    41.43361
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mary Queen of Peace",
+                "Address": "4423 Pearl Road",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44109,
+                "phone": "216-749-2323",
+                "district": "west"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.71012,
+                    41.43474
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sagrada Familia",
+                "Address": "7719 Detroit Avenue",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44102,
+                "phone": "216-631-2888",
+                "district": "west"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.73805,
+                    41.48152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Adalbert ",
+                "Address": "66 Adelbert Street",
+                "City": "Berea ",
+                "State": "OH",
+                "zip": 44017,
+                "phone": "440-234-6830",
+                "district": "west"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.85467,
+                    41.37478
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Angela Merici",
+                "Address": "20970 Lorain Road",
+                "City": "Fairview Park",
+                "State": "OH",
+                "zip": 44126,
+                "phone": "440-383-2183",
+                "district": "west"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.85091,
+                    41.44819
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Bartholomew",
+                "Address": "14875 East Bagley Road",
+                "City": "Middleburg Hts.",
+                "State": "OH",
+                "zip": 44130,
+                "phone": "440-842-5400",
+                "district": "west"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.8027,
+                    41.36738
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Basil the Great",
+                "Address": "8700 Brecksville Road",
+                "City": "Brecksville",
+                "State": "OH",
+                "zip": 44141,
+                "phone": "440-526-1686",
+                "district": "west"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.62692,
+                    41.32512
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Bernadette",
+                "Address": "2256 Clague Road",
+                "City": "Westlake",
+                "State": "OH",
+                "zip": 44145,
+                "phone": "440-734-1300",
+                "district": "west"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.88323,
+                    41.4545
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Christopher",
+                "Address": "20141 Detroit Road",
+                "City": "Rocky RIver",
+                "State": "OH",
+                "zip": 44116,
+                "phone": "440-331-4255",
+                "district": "west"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.84572,
+                    41.47752
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Clement",
+                "Address": "2022 Lincoln Avenue",
+                "City": "Lakewood",
+                "State": "OH",
+                "zip": 44107,
+                "phone": "216-226-5116",
+                "district": "west"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.79539,
+                    41.47518
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Edward High School ",
+                "Address": "13500 Detroit Rd",
+                "City": "Lakewood",
+                "State": "OH",
+                "zip": 44107,
+                "phone": "216-221-3776",
+                "district": "west"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.78334,
+                    41.48667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. John Bosco",
+                "Address": "6480 Pearl Road",
+                "City": "Parma Hts.",
+                "State": "OH",
+                "zip": 44130,
+                "phone": "440-886-3500",
+                "district": "west"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.77233,
+                    41.38475
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Ladislas",
+                "Address": "2345 Bassett Road",
+                "City": "Westlake",
+                "State": "OH",
+                "zip": 44145,
+                "phone": "440-835-2300",
+                "district": "west"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.94499,
+                    41.45231
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Michael Ind.",
+                "Address": "6912 Chestnut Road",
+                "City": "Independence",
+                "State": "OH",
+                "zip": 44131,
+                "phone": "216-524-1394",
+                "district": "west"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.64234,
+                    41.38483
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Patrick Bridge",
+                "Address": "3602 Bridge Avenue",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44113,
+                "phone": "216-631-6872",
+                "district": "west"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.71149,
+                    41.48318
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Rocco",
+                "Address": "3205 Fulton Road",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44109,
+                "phone": "216-961-8331",
+                "district": "west"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.70694,
+                    41.46727
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Vincent De Paul",
+                "Address": "13400 Lorain Avenue",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44111,
+                "phone": "216-252-2626",
+                "district": "west"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.78491,
+                    41.45684
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Southwest Ozanam Center",
+                "Address": " 2145 Broadview Rd",
+                "City": "Cleveland",
+                "State": " OH",
+                "zip": 44109,
+                "phone": " none",
+                "district": "oc"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.69901,
+                    41.43771
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St. Vincent De Paul Woodland Pantry",
+                "Address": "6001 Woodland",
+                "City": "Cleveland",
+                "State": " OH",
+                "zip": 44104,
+                "phone": " 216-391-7231",
+                "district": "oc"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.64856,
+                    41.48811
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Wittman Ozanam Center",
+                "Address": " 13824 Euclid Ave",
+                "City": " East Cleveland",
+                "State": " OH",
+                "zip": 44112,
+                "phone": " none",
+                "district": " oc"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.58584,
+                    41.52609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Pope John Paul II Ozanam Center",
+                "Address": " 8328 Broadway Ave.",
+                "City": "Cleveland",
+                "State": "OH",
+                "zip": 44105,
+                "phone": "none",
+                "district": "oc"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.62895,
+                    41.44971
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Fr. John Hilkert Ozanam Center",
+                "Address": "87 Broad Street",
+                "City": " Akron",
+                "State": " OH",
+                "zip": 44305,
+                "phone": " none",
+                "district": " oc"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.48871,
+                    41.07317
+                ]
+            }
+        }
+    ]
+}
