@@ -109,7 +109,7 @@ function syncSidebar() {
 }
 
 /* Basemap Layers */
-var mapquestOSM = L.tileLayer("http://{s}.tiles.mapbox.com/v3/skorasaurus.3iunyt15/{z}/{x}/{y}.png", {
+var mapquestOSM = L.tileLayer("http://{s}.tiles.mapbox.com/v3/skorasaurus.jjechb76/{z}/{x}/{y}.png", {
   maxZoom: 19,
   attribution: 'Tiles courtesy of <a href="http://www.mapbox.com/" target="_blank">Mapbox</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png">. Map data (c) <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors, CC-BY-SA.'
 });
