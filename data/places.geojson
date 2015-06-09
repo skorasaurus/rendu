@@ -840,7 +840,7 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "St. Vincent De Paul",
+                "name": "St. Vincent de Paul",
                 "Address": "41295 North Ridge Road",
                 "City": "Elyria",
                 "State": "OH",
@@ -2366,7 +2366,7 @@
                 "State": "OH",
                 "zip": 44221,
                 "phone": "330-928-2173",
-                "district": "none"
+                "district": "akron"
             },
             "geometry": {
                 "type": "Point",
@@ -3614,7 +3614,7 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "St. Vincent De Paul",
+                "name": "St. Vincent de Paul",
                 "Address": "13400 Lorain Avenue",
                 "City": "Cleveland",
                 "State": "OH",
