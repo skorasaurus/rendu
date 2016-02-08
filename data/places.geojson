@@ -371,7 +371,7 @@
                 "State": "OH",
                 "zip": 44114,
                 "phone": "216-771-6666",
-                "district": "east"
+                "district": "none"
             },
             "geometry": {
                 "type": "Point",
@@ -580,7 +580,7 @@
                 "State": "OH",
                 "zip": 44103,
                 "phone": "216-361-1444",
-                "district": "east"
+                "district": "none"
             },
             "geometry": {
                 "type": "Point",
