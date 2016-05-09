@@ -3691,7 +3691,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Pope John Paul II Ozanam Center",
-                "Address": " 8328 Broadway Ave.",
+                "Address": "8328 Broadway Ave.",
                 "City": "Cleveland",
                 "State": "OH",
                 "zip": 44105,
@@ -3706,6 +3706,63 @@
                 ]
             }
         },
+            {
+          "type": "Feature",
+          "properties": {
+            "name": "St. Vincent de Paul Community Corner Food Center (M-F 10-2)",
+            "Address": "8302 Detroit Avenue",
+            "City": "Cleveland",
+            "State": "OH",
+            "zip": "44102",
+            "phone": "216-631-6508",
+            "district": "oc"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -81.74165,
+              41.48117
+            ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "name": "St. Vincent de Paul Near West Food Center (at St. Patrick's Church) Wednesdays & Fridays: 10:00 – 2:00",
+        "Address": "3610 Bridge Avenue",
+        "City": "Cleveland",
+        "State": "OH",
+        "zip": 44113,
+        "phone": "216-281-5854",
+        "district": "oc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.71149,
+          41.48318
+        ]
+      }
+    },
+       {
+      "type": "Feature",
+      "properties": {
+        "name": "St. Vincent de Paul Brookside Food Center (M-F 10-2)",
+        "Address": "3802 Pearl Road",
+        "City": "Cleveland",
+        "State": "OH",
+        "zip": 44109,
+        "phone": "216-749-4295",
+        "district": "oc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.70175,
+          41.45121
+        ]
+      }
+    },
         {
             "type": "Feature",
             "properties": {
