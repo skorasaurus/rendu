@@ -2765,13 +2765,13 @@
             "State":"OH",
             "zip":44236,
             "phone":"330-653-8118",
-            "district":"none"
+            "district":"akron"
          },
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -81.44269,
-               41.24637
+               -81.4413,
+               41.2470
             ]
          }
       },
