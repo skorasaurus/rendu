@@ -2303,22 +2303,22 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"St. John the Baptist c/o Visitation of Mary Parish",
-            "Address":"87 Broad Street",
+            "name":"St. John the Baptist",
+            "Address":"1034 Brown Street",
             "City":"Akron",
             "State":"OH",
-            "zip":44305,
+            "zip":44301,
             "phone":"330-535-4502",
             "district":"none"
          },
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -81.48871,
-               41.07317
+               -81.51009,
+               41.05396
             ]
          }
-      },
+      },  
       {
          "type":"Feature",
          "properties":{
@@ -3273,7 +3273,7 @@
          "type":"Feature",
          "properties":{
             "name":"Visitation of Mary Parish",
-            "Address":"87 Broad Street",
+            "Address":"55 Broad Street",
             "City":"Akron",
             "State":"OH",
             "zip":44305,
@@ -3283,7 +3283,7 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -81.48871,
+               -81.48871,    
                41.07317
             ]
          }
