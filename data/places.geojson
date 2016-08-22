@@ -289,25 +289,6 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"St. Mary Wooster",
-            "Address":"P.O. Box 240",
-            "City":"Apple Creek  ",
-            "State":"OH",
-            "zip":44602,
-            "phone":"330-264-8824",
-            "district":"akron"
-         },
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -81.8013,
-               40.73544
-            ]
-         }
-      },
-      {
-         "type":"Feature",
-         "properties":{
             "name":"St. Paul",
             "Address":"1580 Brown Street",
             "City":"Akron",
@@ -2019,7 +2000,7 @@
          "type":"Feature",
          "properties":{
             "name":"St. Elizabeth Ann Seton Parish",
-            "Address":"P.O.Box 968",
+            "Address":"25801 Royalton Road",
             "City":"Columbia Station",
             "State":"OH",
             "zip":44028,
@@ -2029,8 +2010,8 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -81.93508,
-               41.31605
+               -81.93157,
+               41.31141
             ]
          }
       },
@@ -2038,7 +2019,7 @@
          "type":"Feature",
          "properties":{
             "name":"St. Elizabeth of Hungary Parish",
-            "Address":"P.O. Box 20175",
+            "Address":"9016 Buckeye Road",
             "City":"Cleveland",
             "State":"OH",
             "zip":44104,
@@ -2048,8 +2029,8 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -81.58517,
-               41.47388
+               -81.62326,
+               41.48495
             ]
          }
       },
@@ -2627,18 +2608,18 @@
          "type":"Feature",
          "properties":{
             "name":"St. Mary of the Immaculate Conception Parish",
-            "Address":"527 Beall Avenue P.O. Box 109",
+            "Address":"527 Beall Avenue",
             "City":"Wooster",
             "State":"OH",
             "zip":44691,
             "phone":"330-264-8824",
             "district":"none"
-         },
+         },  
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -81.94533,
-               40.81254
+               -81.93388,
+               40.80459
             ]
          }
       },
