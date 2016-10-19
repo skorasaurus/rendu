@@ -508,6 +508,16 @@ if (!L.Browser.touch) {
 
 // smartystreets configuration
 
+var options = {
+  position: 'topright',
+  expanded: true
+};
+
+var theControl = L.control.geocoder('mapzen-5t9cDiT', options);
+
+var controlBlock = theControl.onAdd(map); 
+document.getElementById('navbar-right').appendChild(controlBlock);
+
 
 // jQuery.LiveAddress("3548360835023561920");
 var htmlKey = "3548360835619230092";  // github    // Put your HTML key here
@@ -515,39 +525,19 @@ var htmlKey = "3548360835619230092";  // github    // Put your HTML key here
 
 // var testRunnerVersion = "1.1.6";  // The version of this test runner page
 
-    $(function()
-    {
-      $('form2#submitEvent').submit(function() {
-        alert("Form submit. Verification should happen first (if necessary), then this should occur.");
-      });
-    });
 
-    var liveaddress = $.LiveAddress({
-      key: htmlKey,   // An HTML key from your account
-      debug: true,   // Show debug stuff
-      cityStatePreference: "Cleveland, OH", // prefer Cle cities
-      stateFilter: "OH", // only autcomplete ohio
-      autoMap: false,
-      addresses: [{ street: '#dangerzone' }]
-    });
+      // var liveaddress = $.LiveAddress({
+      //   key: htmlKey,   // An HTML key from your account
+      //   debug: true,   // Show debug stuff
+      //   cityStatePreference: "Cleveland, OH", // prefer Cle cities
+      //   stateFilter: "OH", // only autcomplete ohio
+      //   autoMap: false,
+      //   addresses: [{ street: '#dangerzone' }]
+      // });
 
-  liveaddress.on("AddressAccepted", function(event, data, previousHandler) {
-    if (data.response.chosen)
-        console.log(data.response.chosen.metadata.latitude, data.response.chosen.metadata.longitude);
-        L.marker([data.response.chosen.metadata.latitude, data.response.chosen.metadata.longitude], {
-          icon: L.icon({
-            iconUrl: "assets/img/star.png",
-            iconSize: [32, 32],
-            iconAnchor: [12, 28],
-            popupAnchor: [0, -25]
-            }),
-          riseOnHover: true
-      
-    }).addTo(map);
+
     // change map to zoom on the returned coords
-    map.setView([data.response.chosen.metadata.latitude, data.response.chosen.metadata.longitude], 15);
-    previousHandler(event, data);  
-}); 
+
 
 
 function suppress(event) {
