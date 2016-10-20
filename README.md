@@ -1,17 +1,17 @@
 # rendu
 
 ## What
-A web map with search for SVDP employees and volunteers to find area Catholic Parishes and St. Vincent De Paul chapters (conferences). 
+A web map with search for SVDP employees and volunteers to find area Catholic Parishes and St. Vincent De Paul chapters (conferences) 
+in Northeast Ohio.  
 
 #### Status
-Basic implementation is done
-Small enhancements are to be done as well
+Stable
 
 ## Why
-We have several calls a day from people in need at our central intake office. In some instances, we refer them to contact one of our parish-based chapters (conferences) or a local parish who will follow up with them 
-and assess their needs and meet with them.
+We have several calls a day from people in need at our central intake office. In some instances, we refer them to contact one of our parish-based chapters (conferences) or a local parish who will follow up, meet with them, assess their 
+needs, and find out how they can help. 
 We enter in the client's address in the search bar (located in upper-right), find their location on a map and view nearby churches and conferences. 
-We refer people to specific parishes based on their closest geographic proximity to the parish. 
+We refer people to specific parishes usually based on their closest geographic proximity to a parish. 
 
 ## Who
 Done by Will Skora, Operations Manager, on behalf of [Society of St. Vincent De Paul](http://www.svdpcle.org).
@@ -26,13 +26,15 @@ If you would like to learn, [maptime tutorials](http://maptime.io) are great pla
 If you would like a similar map for your group, you will need to format your list of places into a geoJSON file. 
 
 To transform your file in a geoJSON file: 
-First, must have a spreadsheet of your places with columns of adddress (house number, street name, and zip code)
-Geocode your spreadsheet of addresses (I used [smartystreets](http://smartystreets.com), ask for their non-profit account status if you are a non-profit).
+First, must have a spreadsheet (or a CSV file) of your places with columns of adddress (house number, street name, and zip code).
+Then, you'll need to geocode them, (I used [smartystreets](http://smartystreets.com), ask for their non-profit account status if you are a non-profit).
 Copy your spreadsheet into their online API. 
 
 Take the output from smartystreets, paste into spreadsheet, and save it as a CSV file in Excel (Go to File > Save As CSV). 
 
-Open the file in [geojson.io](http://geojson.io) and verify that each geocoded location appear in the correct places and correct them if needed.
+Open the file in [geojson.io](http://geojson.io) and verify that each geocoded location appear in the correct places and correct them if needed. Then save as a geojson file in geojson.io. 
+
+You'll also need to create an API key from [mapzen](https://mapzen.com/developers/) and place it in  
 
 #### Install
 
@@ -45,4 +47,4 @@ GitHub also has some new guides on [how to contribute](https://guides.github.com
 Code is based on [bootleaf](https://github.com/bmcbride/bootleaf/blob/master/LICENSE.txt) which uses the MIT license. 
 
 Geodata - [Creative Commons 0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) (aka CC 0). 
-(Note: the phone numbers in the file are not the general phone numbers for the church, but the most appropriate numbers for SVDP to contact.
+(Note: the phone numbers in the file are not the general telephone numbers for the church, but the most appropriate numbers for SVDP to contact.
