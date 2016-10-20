@@ -512,6 +512,7 @@ if (!L.Browser.touch) {
 var options = {
   expanded: true, 
   position: 'topright',
+  placeholder: 'Type your address here', 
   autocomplete: true,
   markers:  {icon: L.icon({
             iconUrl: "assets/img/star.png",
@@ -523,3 +524,5 @@ var options = {
 };
 
 L.control.geocoder('mapzen-5t9cDiT', options).addTo(map);
+
+
