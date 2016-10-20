@@ -506,44 +506,20 @@ if (!L.Browser.touch) {
   L.DomEvent.disableClickPropagation(container);
 } 
 
-// smartystreets configuration
+// mapzen-leaflet geocoder configuration 
+// for more information; see https://github.com/mapzen/leaflet-geocoder
 
 var options = {
-  expanded: true
+  expanded: true, 
+  position: 'topright',
+  autocomplete: true,
+  markers:  {icon: L.icon({
+            iconUrl: "assets/img/star.png",
+            iconSize: [32, 32],
+            iconAnchor: [12, 28],
+            popupAnchor: [0, -25]
+            }),
+}
 };
 
-var theControl = L.control.geocoder('mapzen-5t9cDiT', options);
-
-var controlBlock = theControl.onAdd(map); 
-document.getElementById('navbar-right').appendChild(controlBlock);
-
-
-// jQuery.LiveAddress("3548360835023561920");
-var htmlKey = "3548360835619230092";  // github    // Put your HTML key here
-// var htmlKey = "3548360835023561920";  // local
-
-// var testRunnerVersion = "1.1.6";  // The version of this test runner page
-
-
-      // var liveaddress = $.LiveAddress({
-      //   key: htmlKey,   // An HTML key from your account
-      //   debug: true,   // Show debug stuff
-      //   cityStatePreference: "Cleveland, OH", // prefer Cle cities
-      //   stateFilter: "OH", // only autcomplete ohio
-      //   autoMap: false,
-      //   addresses: [{ street: '#dangerzone' }]
-      // });
-
-
-    // change map to zoom on the returned coords
-
-
-
-function suppress(event) {
-  if (!event) return false;
-  if (event.preventDefault) event.preventDefault();
-  if (event.stopPropagation) event.stopPropagation();
-  if (event.stopImmediatePropagation) event.stopImmediatePropagation();
-  if (event.cancelBubble) event.cancelBubble = true;
-  return false;
-}
+L.control.geocoder('mapzen-5t9cDiT', options).addTo(map);
