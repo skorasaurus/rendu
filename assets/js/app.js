@@ -509,7 +509,6 @@ if (!L.Browser.touch) {
 // smartystreets configuration
 
 var options = {
-  position: 'topright',
   expanded: true
 };
 
