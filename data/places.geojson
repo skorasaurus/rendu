@@ -878,7 +878,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"Holy Family Parish",
+            "name":"Holy ilily Parish",
             "Address":"7367 York Road",
             "City":"Parma",
             "State":"OH",
@@ -3335,7 +3335,7 @@
             "State":"OH",
             "zip":44102,
             "phone":"216-631-2888",
-            "district":"west"
+            "district":"none"
          },
          "geometry":{
             "type":"Point",
@@ -3582,7 +3582,7 @@
             "State":"OH",
             "zip":44109,
             "phone":"216-961-8331",
-            "district":"west"
+            "district":"none"
          },
          "geometry":{
             "type":"Point",
