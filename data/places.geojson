@@ -651,8 +651,8 @@
          "type":"Feature",
          "properties":{
             "name":"St. Gabriel",
-            "Address":"9925 Old Johnnycake Ridge Road",
-            "City":"Concord Twp.",
+            "Address":"9925 Johnnycake Ridge Road",
+            "City":"Mentor",
             "State":"OH",
             "zip":44060,
             "phone":"440-352-8282",
@@ -661,8 +661,8 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
-               -81.33851,
-               41.68606
+               -81.28417,
+               41.67773
             ]
          }
       },
@@ -878,7 +878,7 @@
       {
          "type":"Feature",
          "properties":{
-            "name":"Holy ilily Parish",
+            "name":"Holy Family Parish",
             "Address":"7367 York Road",
             "City":"Parma",
             "State":"OH",
@@ -3240,7 +3240,7 @@
             "State":"OH",
             "zip":44107,
             "phone":"216-521-7288",
-            "district":"none"
+            "district":"west"
          },
          "geometry":{
             "type":"Point",
