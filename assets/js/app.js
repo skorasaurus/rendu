@@ -523,6 +523,6 @@ var options = {
 }
 };
 
-L.control.geocoder('mapzen-5t9cDiT', options).addTo(map);
+L.control.geocoder('ge-04ca14befd5aab9c', options).addTo(map);
 
 
