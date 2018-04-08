@@ -174,7 +174,7 @@ var Geocoder = L.Control.extend({
   options: {
     position: 'topleft',
     attribution: 'Geocoding by <a href="https://geocode.earth/">geocode.earth</a>',
-    url: 'https://api.geocode.earth',
+    url: 'https://api.geocode.earth/v1',
     placeholder: null, // Note: this is now just an alias for textStrings.INPUT_PLACEHOLDER
     bounds: false,
     focus: true,
@@ -197,7 +197,7 @@ var Geocoder = L.Control.extend({
     // version, because XDomainRequest does not allow http-to-https requests
     // This is set first so it can always be overridden by the user
     if (window.XDomainRequest) {
-      this.options.url = '//api.geocode.earth';
+      this.options.url = '//api.geocode.earth/v1';
     }
 
     // If the apiKey is omitted entirely and the
