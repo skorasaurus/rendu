@@ -1,8 +1,7 @@
 # rendu
 
 ## What
-A web map with search for SVDP employees and volunteers to find area Catholic Parishes and St. Vincent De Paul chapters (conferences) 
-in Northeast Ohio.  
+A web map with search for SVDP employees and volunteers to find area Catholic Parishes and St. Vincent De Paul chapters (conferences) in Northeast Ohio.  
 
 #### Status
 Stable
@@ -14,13 +13,12 @@ We enter in the client's address in the search bar (located in upper-right), fin
 We refer people to specific parishes usually based on their closest geographic proximity to a parish. 
 
 ## Who
-Done by Will Skora, Operations Manager, on behalf of [Society of St. Vincent De Paul](http://www.svdpcle.org).
+Done by Will Skora on behalf of [Society of St. Vincent De Paul](http://www.svdpcle.org).
 
 ## How
 #### Dependencies
 
-You'll need to be familiar with the concepts of git, geocoding, geoJSON, editing HTML or the willingness to learn them if you wish 
-to use this for your needs. 
+You'll need to be familiar with the concepts of git, geocoding, geoJSON, javascript, editing HTML or the willingness to learn them if you wish to use this for your needs. 
 If you would like to learn, [maptime tutorials](http://maptime.io) are great place to start for the geospatial parts. 
 
 If you would like a similar map for your group, you will need to format your list of places into a geoJSON file. 
@@ -34,7 +32,7 @@ Take the output from smartystreets, paste into spreadsheet, and save it as a CSV
 
 Open the file in [geojson.io](http://geojson.io) and verify that each geocoded location appear in the correct places and correct them if needed. Then save as a geojson file in geojson.io. 
 
-You'll also need to create an API key from [mapzen](https://mapzen.com/developers/) and place it in  
+You'll also need to create an API key from a pelias-based geocoding service like www.geocode.earth and place it in app.js
 
 #### Install
 
