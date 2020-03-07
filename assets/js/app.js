@@ -109,9 +109,9 @@ function syncSidebar() {
 }
 
 /* Basemap Layers */
-var mapquestOSM = L.tileLayer("http://{s}.tiles.mapbox.com/v3/skorasaurus.jjechb76/{z}/{x}/{y}.png", {
+var mapquestOSM = L.tileLayer("https://api.mapbox.com/styles/v1/skorasaurus/ck7dgdmi50d101irle2gk2cbb/tiles/256/%7Bz%7D/%7Bx%7D/%7By%7D@2x?access_token=pk.eyJ1Ijoic2tvcmFzYXVydXMiLCJhIjoiY2s3Y2ptY2tsMDR4bDNrb3pibnR6ZmJ6diJ9.i5Tz7hmK4NZyozc6l-dwtg", {
   maxZoom: 19,
-  attribution: 'Tiles courtesy of <a href="http://www.mapbox.com/" target="_blank">Mapbox</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png">. Map data (c) <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors, CC-BY-SA.'
+  attribution: 'Tiles courtesy of <a href="https://www.mapbox.com/" target="_blank">Mapbox</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png">. Map data (c) <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors, CC-BY-SA.'
 });
 var mapquestOAM = L.tileLayer("http://{s}.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.jpg", {
   maxZoom: 18,
